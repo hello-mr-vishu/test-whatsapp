@@ -15,8 +15,8 @@ waClient.on('ready', () => {
 
 waClient.initialize();
 
-async function sendWhatsAppAlert(message) {
-  const number = '8106764153'; // Replace with your WhatsApp number
+async function sendWhatsAppAlert(message="Alert from your application!") {
+  const number = '7702853524'; // Replace with your WhatsApp number
   const chatId = `${number}@c.us`;
 
   try {
